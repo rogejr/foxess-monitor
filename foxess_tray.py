@@ -41,7 +41,7 @@ APP_NAME = "FoxESS Tray Monitor"
 CONFIG_DIR = Path(os.environ.get("APPDATA", str(Path.home()))) / "FoxessTray"
 CONFIG_FILE = CONFIG_DIR / "config.json"
 API_DOMAIN = "https://www.foxesscloud.com"
-REFRESH_SECONDS = 30
+REFRESH_SECONDS = 5
 REQUEST_TIMEOUT = 15
 
 # Variables we ask the API for. Empty list = all variables; we pass an explicit
