@@ -2,7 +2,7 @@
 ; Compile with: ISCC.exe installer.iss   (or run build.ps1 which does it for you)
 
 #define MyAppName        "FoxESS Tray Monitor"
-#define MyAppVersion     "1.0.0"
+#define MyAppVersion     "1.1.0"
 #define MyAppPublisher   "Roge"
 #define MyAppExeName     "FoxessTray.exe"
 

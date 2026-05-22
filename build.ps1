@@ -7,7 +7,7 @@
 #
 # Output:
 #   dist\FoxessTray.exe                        (portable standalone exe)
-#   installer\FoxessTraySetup-1.0.0.exe        (the installer, if Inno Setup found)
+#   installer\FoxessTraySetup-1.1.0.exe        (the installer, if Inno Setup found)
 
 $ErrorActionPreference = "Stop"
 
@@ -91,13 +91,13 @@ if (-not $iscc) {
 Write-Host "    Found Inno Setup at: $iscc"
 & $iscc "installer.iss"
 
-if (Test-Path "installer\FoxessTraySetup-1.0.0.exe") {
+if (Test-Path "installer\FoxessTraySetup-1.1.0.exe") {
     Write-Host ""
     Write-Host "===========================================" -ForegroundColor Green
     Write-Host "  Build complete!" -ForegroundColor Green
     Write-Host "===========================================" -ForegroundColor Green
     Write-Host ""
-    Write-Host "  Installer:  installer\FoxessTraySetup-1.0.0.exe"
+    Write-Host "  Installer:  installer\FoxessTraySetup-1.1.0.exe"
     Write-Host "  Portable :  dist\FoxessTray.exe"
     Write-Host ""
 } else {

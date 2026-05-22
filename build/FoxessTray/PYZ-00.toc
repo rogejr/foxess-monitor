@@ -1,4 +1,5 @@
-('C:\\Users\\laput\\Downloads\\foxess-tray-installer\\build\\FoxessTray\\PYZ-00.pyz',
+('C:\\Users\\laput\\Documents\\GitHub '
+ 'Projects\\foxess-monitor\\build\\FoxessTray\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\laput\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
